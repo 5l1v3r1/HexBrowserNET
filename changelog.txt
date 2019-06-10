@@ -1,0 +1,44 @@
+
+HexBrowser.NET
+Written by Peter Fiskerstrand
+License: Freeware 
+
+v0.72 (march 2014)
+-Show content of cab archives
+-List fonts in TTC true type collection
+-Signatures for Photo font, XML True type, Font forge spline font, Postscript truetype font
+-TTF/OTF: Show Copyright notices
+-XML:XNAContent
+-Signatures for GeoRSS, more CorelDraw versions, GFZip, Macromedia Director, eXtensible Music File Format
+-Signatures for iLook/IXimager forensic image, EnCase EWF v1/v2
+-More XML types, MetaINF (XML in ZIP)
+-More than 1000 different formats recognized :)
+
+v0.71 (february 2014)
+-TrueType/OpenType font metadata
+-WOFF font metadata
+-Minor bugfixes
+
+v0.70 (july 2013)
+-Integration with MediaInfoLib (Copyright (c) 2002-2013 MediaArea.net SARL. All rights reserved.) Shows info about video/audio/image files.
+-Added Application Settings. It is now possible to choose what information will be displayed.
+-Minor bugfixes
+-Better support for MSI
+-Better support for OLE2 (.doc .xls .ppt)
+-Added signatures for BIFF (Excel), PCAP, and more XML-based formats
+
+v0.69 (may 2013)
+-Started writing a changelog
+-HexBrowser can now identify 976 different file formats
+-Added signatures to recognize misc. Playstation 3 files, including SELF executable
+-Added signatures to recognize mach-o Apple executables
+-Added signatures to recognize misc. Android files, including Dalvik Executables (DEX)
+-Added signatures to recognize misc. OS X and iOS files
+-Added signatures to recognize misc. Amiga files
+-Added identification for a bunch of more or less known formats
+-Fixed True type font recognition (TTF)
+-Minor bugfixes
+-Plans: I have a lot of plans for HexBrowser, but no time to implement them. That's why it's still Beta.
+
+v0.01 - v0.68
+-Ported HexBrowser from c++/mfc to C# .NET
